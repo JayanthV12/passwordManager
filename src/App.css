@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 20px;
+}
+.app-logo {
+  height: 100px;
+  width: 200px;
+  margin-left: 30px;
+}
+
+.password-enter-container {
+  background-color: #5763a5;
+  border-radius: 20px;
+  padding: 30px;
+  height: 600px;
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.password-form {
+  background-color: #454f84;
+  border-radius: 20px;
+  padding: 40px;
+  width: 500px;
+}
+.input-container {
+  background-color: white;
+  height: 50px;
+  width: 360px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.inputEl {
+  border-right-width: 0px;
+  border-top-width: 0px;
+  padding-left: 12px;
+}
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.button {
+  background-color: #0b69ff;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: right;
+}
+.password-manager {
+  height: 540px;
+  width: 600px;
+}
+.password-shown-container {
+  background-color: #5763a5;
+  border-radius: 20px;
+  padding: 30px;
+  height: 600px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checkbox {
+  text-align: right;
+  margin: 20px;
+}
+.details-container {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 200px;
+  border-radius: 20px;
+  border-width: 10px;
+  border-color: white;
+  margin: 40px;
+}
+.star-image {
+  width: 100px;
+}
+.firstname {
+  background-color: green;
+  border-radius: 50%;
+  padding: 20px;
+  margin-right: 12px;
+}
+
+.button1 {
+  background-color: transparent;
+  border-width: 0px;
+  margin-left: 12px;
+  height: 40px;
+}
+.shown-passwords-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.no-passwords {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.no-password {
+  height: 200px;
+  width: 200px;
+}
